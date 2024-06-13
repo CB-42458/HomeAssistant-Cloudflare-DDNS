@@ -1,9 +1,6 @@
 ARG BUILD_FROM
 FROM $BUILD_FROM
 
-# This should stop s6-rc logging
-ENV S6_LOGGING=0
-
 # Install necessary packages
 RUN apk add --no-cache \
     curl \

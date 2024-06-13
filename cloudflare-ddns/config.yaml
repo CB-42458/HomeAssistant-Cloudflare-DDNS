@@ -1,6 +1,6 @@
 name: "DNS Updater"
 description: "Update Cloudflare DNS records with the public IP address of the WAN interface."
-version: "1.0.0"
+version: "1.0.1"
 slug: "dns_updater"
 url: "https://github.com/CB-42458/HomeAssistant-Cloudflare-DDNS"
 init: false
@@ -15,7 +15,6 @@ options:
   api_token: "add your Cloudflare API token"
   zone_id: "add your Cloudflare zone ID"
   domains:
-
 
 schema:
   api_token: password
